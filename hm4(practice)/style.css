@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap');
+bode {
+    
+}
+
+.container-fluid{
+    background-image: url("images/filename.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    font-family: "Lado";
+}
+
+.header{
+    width: 100%;    
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+}
+
+.header__logo {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.nav {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin:35px 35px;
+    position: relative;
+    color: black;
+
+    text-decoration: none;
+
+    transition: color 0.1s linear;
+}
+
+.nav__link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+
+    background-color: #00CED1;
+    opacity: 0;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    transition: opacity 0.1s linear;
+}
+
+.nav__link:hover{
+    color: #00CED1;
+}
+
+.nav__link:hover:after {
+    opacity: 1;
+}
+
+.alt {
+    padding: 10px 50px 12px 50px!important;
+    background-color: #00CED1!important;
+    border: 0!important;
+}
+
+.alt:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+
+.right-column {
+    width: 600px;
+    height: 500px;
+    margin: 80px 15px 15px;
+    padding: 100px 40px 0px 40px;
+}
+
+.twopage {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 0 100px;
+}
+
+.page {
+    height: 300px;
+    width: 40%;
+    font-family: "Raleway";
+    font-size: 50px;
+}
+.text {
+    text-align: center;
+    font-size: 50px;
+}
+
+.threepage {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 570px;
+}
+
+
+.first-part{
+    width: 50%;
+    background-size: cover;
+    background-image: url("images/notebook.jpg"); 
+}
+
+.skills{
+    text-align: left;
+    padding: 130px 50px 100px 80px;
+    width: 50%;
+    background-color: #f9f9f9;  
+}
+
+.skills p{
+    margin-top: 30px;
+}
+.progress-bar {
+    background-color: #10c9c3!important;
+}
+
+.fourthpage {
+    background-color: #10c9c3;
+    padding: 100px 120px;
+    font-family: "Lado";
+    color: white;
+}
+
+.fivethpage{
+    width: 99%;
+}
+
+.grid_f1{
+    width: 25%;
+    height: 300px;
+    background-image: url("images/%D1%811.png");
+    background-size: cover;
+}
+
+.grid_f1:hover{
+    opacity: 0.5;
+}
+
+.grid_f2{
+    width: 25%;
+    height: 300px;
+    background-image: url("images/%D1%812.png");
+    background-size: cover;
+}
+
+.grid_f2:hover{
+    opacity: 0.5;
+}
+
+.grid_f3{
+    width: 25%;
+    height: 300px;
+    background-image: url("images/%D1%813.png");
+    background-size: cover;
+}
+
+.grid_f3:hover{
+    opacity: 0.5;
+}
+
+.grid_f4{
+    width: 25%;
+    height: 300px;
+    background-image: url("images/%D1%814.png");
+    background-size: cover;
+}
+
+.grid_f4:hover{
+    opacity: 0.5;
+}
+
+.grid_f5{
+    width: 25%;
+    height: 300px;
+    background-image: url("images/%D1%815.png");
+    background-size: cover;
+}
+
+.grid_f5:hover{
+    opacity: 0.5;
+}
+
+.grid_f6{
+    width: 25%;
+    height: 300px;
+    background-image: url("images/%D1%816.png");
+    background-size: cover;
+}
+.grid_f6:hover{
+    opacity: 0.5;
+}
+.grid_f7{
+    width: 25%;
+    height: 300px;
+    background-image: url("images/%D1%817.png");
+    background-size: cover;
+}
+.grid_f7:hover{
+    opacity: 0.5;
+}
+
+.btn-block{
+    padding: 30px 0 30px!important;
+    width: 101%!important;
+    background-color: #f5f5f5!important;
+    border:0!important;
+    color: black!important;
+}
+
+.btn-block:hover {
+    opacity: 0.5;
+}
+
+
+
+.sixthpage {
+    padding: 100px 0;
+}
+.ourworkprocess {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.kot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 150px 0 50px;
+}
+
+.kot:hover {
+    opacity: 0.5;
+}
+
+.seventhpage {
+    background-color: #f5f5f5;
+    padding: 70px 150px;
+    
+}
+.p_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 600px;
+}
+.p_rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 250px;
+}
+.katar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.eighthpage {
+    background-color: #10c9c3;
+    text-align: center;
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+}
+.inside {
+    width: 900px;
+}
+.kopsoz {
+    color: white;
+}
+
+.aaa {
+    color: white;
+}
+
+.ninethpage {
+    padding: 70px 140px;
+}
+.inside2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inside2 img{
+    width: 170px;
+}
+
+.tenthpage {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+}
+.inside3 {
+    width: 800px;
+}
+.zhazu {
+    margin: 30px 0;
+}
+.anketa{
+    width: 50%;
+}
+.anketa2{
+    width: 120%;
+}
+#fname{
+    width: 80%;
+    height: 50px;
+    padding: 0 20px;
+}
+#fnames{
+    margin-top: 30px;
+    width: 90%;
+    height: 50px;
+    padding: 0 20px;
+}
+#fnamess{
+    margin-top: 30px;
+    width: 90%;
+    height: 180px;
+    padding: 0 20px;
+}
+.f-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.f-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0; 
+}
+
+
+
+
+
+.eleventhpage {
+    padding: 70px 0px;
+    background-color: black;
+    
+}
+
+.alss p, h3{
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <h3>Piroll Desing, Inc</h3>
+            </div>
+                <p>2017 Piroll. All rights reserved.</p>
+                <p>Designed by robirurk.</p> */
