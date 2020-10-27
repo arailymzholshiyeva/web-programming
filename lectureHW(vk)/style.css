@@ -1,0 +1,281 @@
+@charset "Utf-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+	font-family: Open Sans,Helvetica Neue,sans-serif;
+}
+
+body {
+	width: 100%;
+	background-color: #EDEEF0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 42px;
+	background-color: #507299;
+	z-index: 1000px;
+}
+
+#wrapperHeader {
+	margin: 0px auto;
+	width: 950px;
+	height: 40px;
+}
+
+#logo {
+	float: left;
+	width: 160px;
+	height: 40px;
+	background: url('images/logotype.png') no-repeat;
+	background-size: 33px;
+	background-position: 0px 4px;
+	cursor: pointer;
+}
+
+#logo:active {
+	background-position: 0px 5px;
+}
+
+#search {
+	margin: 7px 0px 0px;
+	padding: 0px 0px 0px 25px;
+	width: 225px;
+	height: 27px;
+	border: transparent;
+	background: url('images/search.png') no-repeat #31537A;
+	background-position: 7px 7px;
+	border-radius: 15px;
+	color: #C0CDDB;
+	font-size: .75em;
+	box-sizing: border-box;
+}
+
+#search:focus {
+	background-color: #FFF;
+	color: #000;
+}
+
+#title {
+	padding-top: 12px;
+	float: right;
+	text-align: center;
+	width: 120px;
+	height: 40px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: .75em;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+#title:hover {
+	background-color: #486991;
+}
+
+#title:active {
+	background-color: #43648C;
+}
+
+#wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 150px;
+    margin-top: 33px;
+}
+.container1{
+    width: 100%;
+    max-width: 93.5rem;
+    margin: 3rem auto 0;
+}
+#wrapper > .container1{
+    display: flex;
+    padding: 0 8rem;
+}
+
+.seredina{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0 100px;
+}
+
+.seredina h1 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.images{
+    max-width: 350px;
+    max-height: 400px;
+    text-align: center;
+    position: relative;
+    margin: 20px 100px;
+}
+.apple{
+    margin: 0px 30px;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.apple:hover{
+background-color: #d5dce4;
+text-decoration: none;
+}
+ .apple2{
+    margin-top: 20px;
+ }
+
+
+.pravayastr{
+    width: 50%;
+    max-width: 320px;
+    max-height: 735px;
+}
+
+.pravayastr form{
+    padding: 25px;
+    background-color: #ffffff;
+    border:1px solid #e7e8ec;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.pravayastr form input{
+ padding: 10px;
+ margin-bottom: 15px;
+ border:2px solid #d3d9de;
+ border-radius: 3px;
+}
+
+.butt{
+    margin:20px 0px;
+    margin-right: 10px;
+    width: 100px;
+    height: 35px;
+    background-color: #5181b8;
+    color:#fff;
+    border:none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #7c7f82;
+
+}
+h1{
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+
+
+.happybirth {
+color: #7c7f82;
+font-size: 12px;
+font-weight: 700;
+text-align: left;
+}
+.happybirth p {
+    
+    margin-bottom: 10px;
+}
+.happybirth2 {
+padding: 8px;
+ margin-bottom: 15px;
+ border:2px solid #d3d9de;
+ border-radius: 3px;
+ margin-right: 10px;
+
+}
+
+
+.butt2{
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 15px;
+    border:none ;
+    border-radius: 3px;
+    background-color: #1b6dd1;
+    cursor: pointer;
+}
+
+.btn {
+    background-color:#4bb34b;
+}
+
+.regist{
+    margin: 5px 30px;
+    font-size:12px;;
+}
+
+.regist p {
+    margin-bottom: 5px;
+}
+
+
+.finish{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-top: 1px solid #dce1e6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.god{
+    color: #6f7985;
+    font-size: 12px;
+    width: 200px;
+}
+.nav{
+    
+}
+
+.nav-link{
+    margin: 0px 10px;
+    font-size: 12px;
+}
+.lng{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
