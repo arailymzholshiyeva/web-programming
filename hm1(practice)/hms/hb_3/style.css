@@ -1,0 +1,327 @@
+body{
+    margin: 0;
+    padding:0;
+}
+.block-left{
+position:fixed;
+    left:0;
+    top:0;
+    width:25%;
+    height:100%;
+    background: cadetblue;
+    color:#fff;
+    overflow:auto;
+}
+.amazon{
+    height: 15%;
+    width: 45%;
+    padding-left: 100px;
+
+}
+.htmlBooks{
+    height:0;
+    width: 60%;
+    border:none;
+    background-color: cadetblue;
+    color: #ffffff;
+    padding-left: 140px;
+    padding-bottom: 70px;
+
+}
+.search{
+    padding-left: 120px;
+    font: 150% serif;
+
+}
+.empty-button{
+    position:relative ;
+    margin-top: 2px;
+    height: 20px;
+    width: 140px;
+    color: cadetblue;
+    margin-left: 120px;
+    border-width: 4px;
+    border-color: navajowhite;
+
+}
+.search_img{
+    height: 3%;
+    width: 25%;
+    padding-left: 150px;
+}
+.siteMap{
+    position:relative ;
+
+    padding-top: 50px;
+    height: 20px;
+    width: 140px;
+    color: mediumblue;
+    margin-left: 120px;
+    border: none;
+    background-color: cadetblue;
+    font: 180% serif;
+
+
+}
+.line2{
+    border-color: mediumblue;
+
+}
+.homePage{
+    position:relative ;
+     margin-top: 50px;
+    height: 20px;
+    width: 140px;
+    color: white;
+    margin-left: 50px;
+    border: none;
+    background-color: cadetblue;
+    font: 110% serif;
+}
+.mainTutorials{
+    position:relative ;
+    margin-top: 40px;
+    height: 5px;
+    width: 150px;
+    color: orange;
+    margin-left: 50px;
+    border: none;
+    background-color: cadetblue;
+    font: 120% serif;
+    text-align: left;
+
+}
+
+.beginnerInfo{
+    position:relative ;
+    margin-top: 18px;
+    height: 5px;
+    width: 150px;
+    color: yellow;
+    margin-left: 50px;
+    border: none;
+    background-color: cadetblue;
+    font: 90% serif;
+    text-align: left;
+}
+.line5{
+    border-color: yellow;
+    width: 75px;
+    margin-left: -2px;
+    margin-top: -20px;
+}
+.basicHTML{
+    position:relative ;
+    margin-top: 0px;
+    height: 5px;
+    width: 150px;
+    color: white;
+    margin-left: 50px;
+    border: none;
+    background-color: cadetblue;
+    font: 90% serif;
+    text-align: left;
+}
+.line6{
+    border-color: white;
+    width: 125px;
+    margin-left: -2px;
+    margin-top: -1px;
+}
+.tableTutor{
+    position:relative ;
+    margin-top: 18px;
+    height: 5px;
+    width: 150px;
+    color: white;
+    margin-left: 50px;
+    border: none;
+    background-color: cadetblue;
+    font: 90% serif;
+    text-align: left;
+}
+.line7{
+    border-color:white;
+    width: 75px;
+    margin-left: -2px;
+    margin-top: -1px;
+}
+.formTutor{
+    position:relative ;
+    margin-top: 18px;
+    height: 5px;
+    width: 150px;
+    color: white;
+    margin-left: 50px;
+    border: none;
+    background-color: cadetblue;
+    font: 90% serif;
+    text-align: left;
+}
+.line8{
+    border-color:white;
+    width: 75px;
+    margin-left: -2px;
+    margin-top: -1px;
+}
+.framesTutor{
+    position:relative ;
+    margin-top: 18px;
+    height: 5px;
+    width: 150px;
+    color: white;
+    margin-left: 50px;
+    border: none;
+    background-color: cadetblue;
+    font: 90% serif;
+    text-align: left;
+}
+.line9{
+    border-color:white;
+    width: 75px;
+    margin-left: -2px;
+    margin-top: -1px;
+}
+.webTutor{
+    position:relative ;
+    margin-top: 18px;
+    height: 5px;
+    width: 150px;
+    color: white;
+    margin-left: 50px;
+    border: none;
+    background-color: cadetblue;
+    font: 90% serif;
+    text-align: left;
+}
+.line10{
+    border-color:white;
+    width: 75px;
+    margin-left: -2px;
+    margin-top: -1px;
+}
+.dirTutor{
+    position:relative ;
+    margin-top: 18px;
+    height: 5px;
+    width: 150px;
+    color: white;
+    margin-left: 50px;
+    border: none;
+    background-color: cadetblue;
+    font: 90% serif;
+    text-align: left;
+}
+.line11{
+    border-color:white;
+    width: 75px;
+    margin-left: -2px;
+    margin-top: -1px;
+}
+.block-right{
+    position:fixed;
+    left:401px;
+    top:0;
+    width:75%;
+    height:100%;
+    background: white;
+    color:#fff;
+    overflow:auto;
+}
+.prof{
+    position: fixed ;
+    margin-top: -10px;
+    height: 20px;
+    width: 150px;
+    color: cadetblue;
+    margin-left: 120px;
+    border: none;
+
+    font: 350% italic;
+
+}
+.webDesign{
+    position: fixed ;
+    margin-top: 80px;
+    height: 30%;
+    width: 90%;
+    color: darkgrey;
+    margin-left: 120px;
+    border: none;
+
+    font: 650% italic;
+
+}
+.line12{
+    border-color:#b1a7a7;
+    width: 510px;
+    height: 3px;
+    background-color: #b1a7a7;
+    margin-left: -2px;
+    margin-top: -1px;
+}
+.html_tut{
+   position: absolute;
+    margin-top:185px;
+    margin-left: 450px;
+    height: 10%;
+    width: 40%;
+    color: cadetblue;
+    border: none;
+    font: 300% italic;
+}
+.text{
+    color:black;
+    margin-top:250px;
+    font: 120% "Times New Roman";
+}
+.text1{
+    color:black;
+    margin-top:5px;
+    font: 120% "Times New Roman";
+}
+.text2{
+    color:black;
+    margin-top:5px;
+    font: 120% "Times New Roman";
+}
+.text3{
+    color:black;
+    margin-top:5px;
+    font: 120% "Times New Roman";
+}
+.text4{
+    color:black;
+    margin-top:5px;
+    font: 120% "Times New Roman";
+}
+.text5{
+    color:black;
+    margin-top:5px;
+    font: 120% "Times New Roman";
+}
+.text6{
+    color:black;
+    margin-top:5px;
+    font: 120% "Times New Roman";
+}
+.text7{
+    color:black;
+    margin-top:5px;
+    font: 120% "Times New Roman";
+}
+.text8{
+    color:black;
+    margin-top:5px;
+    font: 120% "Times New Roman";
+}
+.text9{
+    color:black;
+    margin-top:5px;
+    font: 120% "Times New Roman";
+}
+.text10{
+    color:black;
+    margin-top:5px;
+    font: 120% "Times New Roman";
+}
