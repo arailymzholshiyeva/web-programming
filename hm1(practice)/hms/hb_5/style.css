@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+.name{
+    margin-top: 5px;
+}
+.name_1{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: 100px;
+}
+.add{
+    margin-top: 5px;
+}
+.add_1{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: 100px;
+}
+.city{
+    margin-top: 5px;
+}
+.city_1{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: 100px;
+}
+.state{
+    margin-top: 5px;
+}
+.state_1{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: 100px;
+}
+.zip{
+    margin-top: 5px;
+}
+.zip_1{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: 100px;
+}
+.magazine{
+    margin-top: 5px;
+}
+.magazine_1{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: 100px;
+}
+.subscription{
+    margin-top: 20px;
+}
+.subscription_1{
+    display: flex;
+    justify-content: center;
+    margin-top: -32px;
+    margin-left: -1250px;
+}
+.subscription_2{
+    display: flex;
+    justify-content: center;
+    margin-top: -33px;
+    margin-left: -1100px;
+}
+.comment_1{
+    height: 70px;
+    width: 270px;
+}
